@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/route/RouterTestRoute.dart';
 import 'package:flutter_demo/route/newroute.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -50,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 textColor: Colors.blue,
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return NewsRoute();
+                    return RouterTestRoute();
                   }));
                 },
                 child: new Text("This is a new route page")),
