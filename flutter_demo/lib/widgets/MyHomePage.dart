@@ -50,11 +50,15 @@ class _MyHomePageState extends State<MyHomePage> {
             FlatButton(
                 textColor: Colors.blue,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return RouterTestRoute();
-                  }));
+                  Navigator.pushNamed(context, "new_page");
                 },
                 child: new Text("This is a new route page")),
+            FlatButton(
+                textColor: Colors.blue,
+                onPressed: () {
+                  Navigator.pushNamed(context, "test_route");
+                },
+                child: new Text("This is a new test route")),
           ],
         ),
       ),
