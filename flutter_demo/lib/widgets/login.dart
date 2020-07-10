@@ -23,7 +23,7 @@ class _LoginState extends State<Login> {
                     alignment: Alignment.center,
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      'TutorialKart',
+                      'Meeting Room',
                       style: TextStyle(
                           color: Colors.blue,
                           fontWeight: FontWeight.w500,
