@@ -74,6 +74,7 @@ class _LoginState extends State<Login> {
                       onPressed: () {
                         print(nameController.text);
                         print(passwordController.text);
+                        Navigator.pushNamed(context, "home_page");
                       },
                     )),
                 Container(
